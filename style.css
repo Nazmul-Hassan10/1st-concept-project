@@ -31,9 +31,9 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
-    height: 100dvb;
+    height: 100vh;
     align-items: center;
-    background-image: url('./photos/background.png'), linear-gradient(45deg, rgb(34, 34, 34), black);
+    background-image: url('./photos/background.png'), linear-gradient(45deg, rgb(34, 34, 34), rgb(35, 30, 30));
     color: white;
 }      
 .banner-img{
@@ -42,4 +42,56 @@
 .title{
     font-size: 55px;
     font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: #DA2863;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    color: #3eff37;
+    
+}
+.about-container{
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+.about-img{
+    width: 300px;
+
+}
+.about-us-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-us-p{
+    font-size: 18px;
+}
+.about-button{
+    background-color: #DA2863;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    border: none;
 }
