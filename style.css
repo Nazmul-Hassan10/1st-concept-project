@@ -26,3 +26,20 @@
 .logo-photo{
     width: 200px; 
 }
+       /*main*/
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100dvb;
+    align-items: center;
+    background-image: url('./photos/background.png'), linear-gradient(45deg, rgb(34, 34, 34), black);
+    color: white;
+}      
+.banner-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
